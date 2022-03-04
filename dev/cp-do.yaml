@@ -3,6 +3,6 @@ kind: Provider
 metadata:
   name: provider-digitalocean
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   package: "crossplane/provider-digitalocean:v0.2.0-rc.0.4.ga84e31b"
