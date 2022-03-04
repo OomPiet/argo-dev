@@ -3,6 +3,7 @@ kind: ProviderConfig
 metadata:
   name: do-config
   annotations:
+    argocd.argoproj.io/hook: Sync
     argocd.argoproj.io/sync-wave: "1"
 spec:
   credentials:
